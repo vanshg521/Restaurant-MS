@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    font-family: 'Montserrat','Helvetica Neue', 'sans-serif';
+    font-weight: 200;
+}
+a, a:link, a:visited {text-decoration: none;}
+
+.font-primary-color a:visited{
+    color: #ff473a;
+}
+
+.font-secondary-color a:visited{
+    color: #ffaa3a;
+}
+
+.font-neutral-color a:visited{
+    color: #fff;
+}
+
+
+html { font-size: 1em; }
+h1 { font-size: 2.074em; }
+h2 { font-size: 1.728em; }
+h3 { font-size: 1.44em; }
+h4 { font-size: 1.2em; }
+
+.bg-primary-color {
+    background: #ff473a;
+}
+
+.bg-neutral-color {
+    background: #fff;
+}
+
+.bg-secondary-color {
+    background: #ffaa3a;
+}
+
+.font-primary-color {
+    color: #ff473a;
+}
+
+.font-secondary-color {
+    font: #ffaa3a;
+}
+
+.font-neutral-color {
+    color: #fff;
+}
+
+div#root {
+    height: 100%;
+}
+
+.spacer {
+    flex:1 1 1px;    
+}
+
+html,body {
+    margin:0;
+    height: 100%;
+}
+
+main {
+    margin-top:52px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;    
+    min-height: 0;
+}
+
+
+
+body.login {
+    background-image: url("utils/images/btlogin.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: auto 100%;
+}
+
+body.login main {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+body.login main div.logo {
+    height: 60%;
+}
+
+body.login main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;    
+}

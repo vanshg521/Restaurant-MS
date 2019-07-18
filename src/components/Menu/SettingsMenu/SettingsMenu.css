@@ -1,0 +1,17 @@
+.settings-menu-vertical {
+    border-top: 1px solid #fff;
+    flex:0!important;
+    margin:1.2rem 0 0 0!important;
+    padding: 0 1.2rem!important;
+}
+
+.settings-menu-vertical li:first-child {
+    padding-top:1.2rem;
+}
+
+.settings-menu-vertical li:last-child {
+    padding-bottom:0;
+}
+.Icon{
+    margin-right: 5px;
+}

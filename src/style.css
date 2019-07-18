@@ -1,0 +1,36 @@
+.styledButton{
+  background: linear-gradient(45deg, #f8657d 90%, #FF8E53 30%,rgb(255, 200, 83) 30%);
+  border-radius: 3px;
+  border: 0;
+  color: white;
+  height: 48px;
+  padding: 0 30px;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .30);
+  position: static;
+  
+}
+
+.wrapper{
+  text-align: center;
+}
+
+.styleTableHeader{
+  background: linear-gradient(45deg, #f8657d 30%, #FF8E53 90%);
+
+}
+
+.h3{
+  font-size: 30px;
+  line-height: 20px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  
+}
+
+.toolbar{
+   background: linear-gradient(45deg,#f8657d 30%, #FF8E53 90%);
+}
+
+.side-drawer{
+  background: linear-gradient(45deg, #f8657d 30%, #FF8E53 90%);
+}

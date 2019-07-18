@@ -1,0 +1,38 @@
+ul.options-menu-vertical {
+    overflow-y: scroll;
+}
+
+a {
+    color: #fff;
+}
+
+.options-menu-vertical::-webkit-scrollbar {display:none;}
+
+
+
+
+ul.options-menu-horizontal {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.options-menu-horizontal li {
+    padding: 0 0.5rem; 
+}
+
+.options-menu-horizontal a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.options-menu-horizontal a:hover, .options-menu-horizontal a:active {
+    color: #fff;
+}
+.Icon{
+    margin-right: 5px;
+}
+.childIcon{
+    margin-right: 5px;
+}

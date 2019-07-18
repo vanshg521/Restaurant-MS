@@ -1,0 +1,10 @@
+.stock-item {
+    display: flex;
+    padding: 0.5rem 0;
+    border-bottom: 0.1rem solid rgba(0,0,0,0.1);
+}
+
+.stock-item span {
+    display: inline-flex;
+    align-items: center;
+}
