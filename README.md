@@ -17,6 +17,13 @@ This is a restaurant management system
 - announcements and "verified read"
 - cross-platform fully responsive website
 
+## Developer
+- [Steven Liu](https://github.com/vanshg521) - Software/Front end developer
+- [Akio](https://github.com/akiofacts)
+- [Bruno Simione Beltrame](https://github.com/BrunoSimione)
+- [Elizabeth Duong](https://github.com/LizDuong)
+
+
 ## Dependencies
 - [React](https://reactjs.org/)
 - [Redux](https://redux.js.org//)
